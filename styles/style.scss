@@ -1,6 +1,6 @@
-header {
-    background: lightblue;
-    display: flex;
-    justify-content: center;
+@import "./variables";
+@import "./header";
 
+.contact {
+   @extend header;
 }
